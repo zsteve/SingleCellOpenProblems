@@ -1,6 +1,3 @@
-import os
-import tempfile
-
 import anndata
 import scprep
 

@@ -1,13 +1,16 @@
-from ....tools.normalize import log_cpm
 from ....tools.decorators import method
 from ....tools.utils import check_version
 
 import meld
+import scanpy as sc
+import numpy as np
+import pandas as pd
 
 
 @method(
     method_name="MELD",
-    paper_name="Quantifying the effect of experimental perturbations in single-cell data",
+    paper_name="Quantifying the effect of experimental perturbations in "
+    "single-cell data",
     paper_url="https://www.biorxiv.org/content/10.1101/532846v4",
     paper_year=2020,
     code_url="https://github.com/krishnaswamylab/MELD",

@@ -1,4 +1,3 @@
-import numpy as np
 from ....data.Klein_2018_zebrafish_embryo import load_zebrafish_chd_tyr
 from ....tools.decorators import dataset
 from .utils import simulate_treatment

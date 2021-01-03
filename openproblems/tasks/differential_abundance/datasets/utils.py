@@ -5,6 +5,8 @@ import pandas as pd
 import scipy
 import sklearn
 
+import scanpy as sc
+
 
 def _preprocess(adata):
     """Library size normalize and sqrt transform adata"""
@@ -111,7 +113,6 @@ def simulate_treatment(
         index=adata.obs_names,
     )
 
-    choices = np.tile(condition_probability.columns, adata.n_obs).reshape(-1, 3)
     condition = []
     for ix, prob in condition_probability.iterrows():
         condition.append(np.random.choice(condition_probability.columns, p=prob))
