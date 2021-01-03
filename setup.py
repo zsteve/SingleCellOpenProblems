@@ -13,6 +13,7 @@ install_requires = [
     "memory-profiler",
     "molecular-cross-validation @ git+https://github.com/czbiohub/molecular-cross-validation",
     "parameterized",
+    "meld",
 ]
 
 r_requires = [
