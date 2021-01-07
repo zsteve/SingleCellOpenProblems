@@ -2,9 +2,9 @@ from ....tools.decorators import method
 from ....tools.utils import check_version
 
 import meld
-import scanpy as sc
 import numpy as np
 import pandas as pd
+import scanpy as sc
 
 
 @method(
