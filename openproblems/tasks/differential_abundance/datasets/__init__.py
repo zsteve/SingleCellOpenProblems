@@ -1,2 +1,2 @@
 # TODO: update
-from .template_data import template_data
+from .Klein_2018_chd_tyr import Klein_2018_chd_tyr_data
