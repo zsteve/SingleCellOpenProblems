@@ -82,6 +82,7 @@ def simulate_treatment(
     """
 
     np.random.seed(seed)
+    _preprocess(adata)
 
     data_embedding = adata.obsm[embedding_name]
     if not np.isclose(data_embedding.mean(), 0):
