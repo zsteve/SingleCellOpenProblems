@@ -42,12 +42,12 @@ def _create_pdf(data_embedding):
 
 
 def simulate_treatment(
-    adata: AnnData,
-    n_conditions: Optional[int] = 2,
-    n_replicates: Optional[int] = 2,
-    embedding_name: Optional[str] = "X_pca",
-    n_components: Optional[int] = 10,
-    seed: Optional[int, np.random.RandomState] = None,
+    adata: sc.AnnData,
+    n_conditions: int = 2,
+    n_replicates: int = 2,
+    embedding_name: str = "X_pca",
+    n_components: int = 10,
+    seed: [int, np.random.RandomState] = None,
 ) -> np.ndarray:
     """Creates random differentially expressed regions over a dataset for benchmarking.
 
