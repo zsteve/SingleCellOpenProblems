@@ -17,6 +17,7 @@ def _preprocess(adata):
 
     # Do PCA
     adata.obsm["X_pca"] = sc.pp.pca(adata.layers["X_norm_sqrt"])
+    adata.uns["preprocessed_for_differential_abundance"] = True
     return adata
 
 
@@ -82,7 +83,8 @@ def simulate_treatment(
     """
 
     np.random.seed(seed)
-    _preprocess(adata)
+    if "preprocessed_for_differential_abundance" not in adata.uns:
+        _preprocess(adata)
 
     data_embedding = adata.obsm[embedding_name]
     if not np.isclose(data_embedding.mean(), 0):

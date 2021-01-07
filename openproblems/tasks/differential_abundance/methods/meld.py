@@ -25,7 +25,7 @@ def run_meld(adata):
     adata.layers["X_norm_sqrt"] = adata.layers["X_norm"].sqrt()
 
     # Complete the result in-place
-    meld_op = meld.MELD()
+    meld_op = meld.MELD(verbose=False)
     adata.obsm["sample_densities"] = meld_op.fit_transform(
         adata.layers["X_norm_sqrt"], sample_labels=adata.obs["sample"]
     ).set_index(adata.obs_names)
