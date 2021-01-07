@@ -1,2 +1,2 @@
 # TODO: update
-from .template_metric import template_metric
+from .mse import mean_squared_error
