@@ -1,2 +1,2 @@
 # TODO: update
-from .meld import meld
+from .meld import run_meld
