@@ -1,6 +1,6 @@
 <!--- TODO: update --->
 
-# Differential abundance (single cell condition likelihood extimation)
+# Differential abundance (single cell condition likelihood estimation)
 
 The goal of this tasks is to estimate the likelihood of a sample condition label given a cell's UMI count.
 
