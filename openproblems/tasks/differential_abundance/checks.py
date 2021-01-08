@@ -16,8 +16,8 @@ def check_dataset(adata):
     assert "n_samples" in adata.uns
 
     # Ensure that ground truth probability is infact a probability distirbution
-    assert np.min(adata.obsm["ground_truth_probability"]) >= 0
-    assert np.max(adata.obsm["ground_truth_probability"]) <= 1
+    assert np.all(np.min(adata.obsm["ground_truth_probability"]) >= 0)
+    assert np.all(np.max(adata.obsm["ground_truth_probability"]) <= 1)
     assert np.allclose(np.sum(adata.obsm["ground_truth_probability"], axis=1), 1)
 
     # Check that sample labels are formatted properly
