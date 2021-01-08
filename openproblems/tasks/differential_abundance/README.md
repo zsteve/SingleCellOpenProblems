@@ -2,7 +2,7 @@
 
 # Differential abundance (single cell condition likelihood estimation)
 
-The goal of this tasks is to estimate the likelihood of a sample condition label given a cell's UMI count.
+The goal of this task is to estimate the likelihood of a sample condition label given a cell's UMI count.
 
 This task is calculated using experimental scRNA-seq data and then artificially creating sample labels over the dataset. The labels are creating using a ground-truth probability function that is smooth over the dataset. Labels indicate `condition` and `replicate`. In the current task definition, `condition` probabilities are different for each condition across the data, but `replicate` assignments are uniform random across the dataset. We then concatenate the `condition` and `replicate` labels to create a `sample` label, e.g. `condition2.replicate3`.
 
