@@ -21,7 +21,9 @@ def _preprocess(adata):
     return adata
 
 
-def _create_pdf(data_embedding):
+def _create_pdf_from_embedding(data_embedding):
+    # DEPRECATED 3/1/21 - This is outdated method
+
     # Given a data_embedding, sample a simplex to weight each dimension to get a
     # new PDF for each condition
 
@@ -40,6 +42,10 @@ def _create_pdf(data_embedding):
     if np.random.choice([True, False]):
         pdf = 1 - pdf
     return pdf
+
+
+def _create_pdf_from_graph(graph, n_peaks):
+    return
 
 
 def simulate_treatment(
