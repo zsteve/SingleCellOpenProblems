@@ -1,7 +1,7 @@
+from . import utils
+
 import anndata
 import scprep
-
-from . import utils
 
 
 @utils.loader

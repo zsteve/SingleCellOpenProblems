@@ -1,6 +1,6 @@
-import sklearn.metrics
-
 from ....tools.decorators import metric
+
+import sklearn.metrics
 
 
 @metric(

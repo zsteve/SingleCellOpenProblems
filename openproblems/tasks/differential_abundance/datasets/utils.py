@@ -2,10 +2,9 @@
 
 import numpy as np
 import pandas as pd
+import scanpy as sc
 import scipy
 import sklearn
-
-import scanpy as sc
 
 
 def _preprocess(adata):

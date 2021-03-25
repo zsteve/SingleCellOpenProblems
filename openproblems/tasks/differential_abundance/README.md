@@ -24,7 +24,7 @@ Datasets should contain the following attributes:
   * list of unique condition labels
 * `adata.uns["replicates"]: array-like, shape=(n_replicates,)`
   * list of unique replicate labels
-* `adata.uns["samples"]: array-like, shape=(n_conditions*n_replicates,)`  
+* `adata.uns["samples"]: array-like, shape=(n_conditions*n_replicates,)`
   * List of unique sample labels
 * `adata.uns["n_conditions"]: int`
 * `adata.uns["n_replicates"]: int`
