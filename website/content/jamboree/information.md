@@ -74,11 +74,10 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 😴 | 😴 | 2:00pm | 2:15pm | Welcome, introduce the day for Europe / Africa
 😴 | 😴 | 2:15pm | 3:45pm | Break out into groups
 😴 | 😴 | 3:45pm | 4:00pm | Coffee break
-8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start wrap up for Europe (1 slide per person)
+8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online,  wrap up for Europe / Africa (1 slide per person)
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
-10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration
-11:00am | 12:30pm | 7:00pm | 9:30pm | Work for 90 minutes
-12:30pm | 13:00pm | 9:30pm | 10:00pm | Regroup, relax for 30 minutes
+10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration for Americas (1 slide per person)
+
 
 
 ### Discord
