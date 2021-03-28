@@ -62,7 +62,7 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 😴 | 😴 | 2:00pm | 2:15pm | Welcome, introduce the day for Europe / Africa
 😴 | 😴 | 2:15pm | 3:45pm | Break out into groups
 😴 | 😴 | 3:45pm | 4:00pm | Coffee break
-8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start day 2 discussion: "What infrastructure improvement would make Open Problems more useful for your work?"
+8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start day 2 discussion: "What improvements would make Open Problems more useful for your work?"
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
 10:30am | 11:00am | 6:30pm | 7:00pm | Regroup, relax for 30 minutes
 11:00am | 12:30pm | 7:00pm | 9:30pm | Work for 90 minutes
@@ -74,7 +74,7 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 😴 | 😴 | 2:00pm | 2:15pm | Welcome, introduce the day for Europe / Africa
 😴 | 😴 | 2:15pm | 3:45pm | Break out into groups
 😴 | 😴 | 3:45pm | 4:00pm | Coffee break
-8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start day 3 discussion: "Planning next steps of Open Problems"
+8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start wrap up for Europe (1 slide per person)
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
 10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration
 11:00am | 12:30pm | 7:00pm | 9:30pm | Work for 90 minutes
