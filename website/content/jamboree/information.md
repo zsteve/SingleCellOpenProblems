@@ -52,7 +52,7 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 -- | -- | -- | -- | -- |
 8:00am | 9:00am | 4:00pm | 5:00pm | Welcome, introduce the day, answer questions about infrastructure
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
-10:30am | 11:00am | 6:30pm | 7:00pm | Game session: Skribbl.io
+10:30am | 11:00am | 6:30pm | 7:00pm | Game session: Skribbl.io (in `#auditorium` on Discord)
 11:00am | 12:30pm | 7:00pm | 9:30pm | Work for 90 minutes (optional for EU/Afr)
 12:30pm | 13:00pm | 9:30pm | 10:00pm | Regroup, relax for 30 minutes (optional for EU/Afr)
 
@@ -62,7 +62,7 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 😴 | 😴 | 2:00pm | 2:15pm | Welcome, introduce the day for Europe / Africa
 😴 | 😴 | 2:15pm | 3:45pm | Break out into groups
 😴 | 😴 | 3:45pm | 4:00pm | Coffee break
-8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start day 2 discussion: "What improvements would make Open Problems more useful for your work?"
+8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online, start day 2 discussion: "What improvements would make Open Problems more useful for your work?" (in `#auditorium` on Discord)
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
 10:30am | 11:00am | 6:30pm | 7:00pm | Regroup, relax for 30 minutes
 11:00am | 12:30pm | 7:00pm | 9:30pm | Work for 90 minutes
@@ -74,10 +74,9 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 😴 | 😴 | 2:00pm | 2:15pm | Welcome, introduce the day for Europe / Africa
 😴 | 😴 | 2:15pm | 3:45pm | Break out into groups
 😴 | 😴 | 3:45pm | 4:00pm | Coffee break
-8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online,  wrap up for Europe / Africa (1 slide per person)
+8:00am | 9:00am | 4:00pm | 5:00pm | Americas come online,  wrap up for Europe / Africa (1 slide per person in `#auditorium` on Discord)
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
-10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration for Americas (1 slide per person)
-
+10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration for Americas (1 slide per person in `#auditorium` on Discord)
 
 
 ### Discord
@@ -92,11 +91,12 @@ Before the jamboree:
 
 ### Introductory videos
 
-To help orient you to our codebase on GitHub, we’ve created two introductory videos. The first is an overall introduction to the GitHub code and the second is an instructional video on adding a new task. We’ve tried onboarding a few different ways and it’s been clear that pre-recorded videos are the best way to get new contributors up and running quickly.
+To help orient you to our codebase on GitHub, we’ve created three introductory videos. The first is an overall introduction to the GitHub code, the second is an instructional video on adding a new task, and the third is a walk-through guide to GitHub and AWS SageMaker. We’ve tried onboarding a few different ways and it’s been clear that pre-recorded videos are the best way to get new contributors up and running quickly.
 
 Before the Jamboree:
 1. Watch the Open Problems Repository introduction: https://www.youtube.com/watch?v=tHempZCdXyA  
 2. Watch the tutorial on adding a new task: https://www.youtube.com/watch?v=tgVG3Hp6mBc
+3. Read the guide for GitHub and AWS SageMaker (video linked in guide): https://github.com/singlecellopenproblems/SingleCellOpenProblems/blob/master/SAGEMAKER.md
 
 ### GitHub and Amazon Web Services (AWS)
 
