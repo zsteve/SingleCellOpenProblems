@@ -37,6 +37,10 @@ subtitle = ""
 
 The Open Problems for Single-Cell Analysis project is a community effort to standardize benchmarking for single-cell analysis. We aim to hold a remote Jamboree in the Spring of 2021 to bring together and expand the Open Problems Community as we build a resource to drive innovation in single-cell analytics. To learn more about the project, [click here.](/)
 
+## Kickoff presentation
+
+Slides for the Kickoff presentation on March 29 are available on [Google Slides](https://docs.google.com/presentation/d/1byAtXoKHGIOs8md4wkePWsNiBXUV_YVCcToh8153B94/edit?usp=sharing). A recording of the talk will be made available here after the session.
+
 ## Schedule
 
 We have groups joining the jamboree from the Americas and from Europe, so we'll have a schedule to accomodate multiple time zones. We request that everyone join for the introductory session on Day 1 (3/29/21), but starting on Day 2 (3/30/21) we'll have an earlier session for folks joining from Europe.
@@ -78,8 +82,7 @@ Start (PT) | Stop (PT) | Start (GMT+1) | Stop (GMT+1) | Activity
 9:00am | 10:30am | 5:00pm | 6:30pm | Divide people into pre-selected teams of 5, work for 90 minutes
 10:30am | 11:00am | 6:30pm | 7:00pm | Wrap up and closing celebration for Americas (1 slide per person in `#auditorium` on Discord)
 
-
-### Discord
+## Discord
 
 To encourage communication and collaboration during the event, we’re going to use Discord. Discord is a chat and video client that combines the text channels of Slack with video channels that users can freely join and leave to talk and share content. We highly recommend downloading the Discord client for your computer because it’s more reliable than using a browser.
 
@@ -89,7 +92,7 @@ Before the jamboree:
 3. Join our server: https://discord.gg/sDE7cM4PN7
 4. Introduce yourself with a 👋in the #introductions channel
 
-### Introductory videos
+## Introductory videos
 
 To help orient you to our codebase on GitHub, we’ve created three introductory videos. The first is an overall introduction to the GitHub code, the second is an instructional video on adding a new task, and the third is a walk-through guide to GitHub and AWS SageMaker. We’ve tried onboarding a few different ways and it’s been clear that pre-recorded videos are the best way to get new contributors up and running quickly.
 
@@ -98,7 +101,7 @@ Before the Jamboree:
 2. Watch the tutorial on adding a new task: https://www.youtube.com/watch?v=tgVG3Hp6mBc
 3. Read the guide for GitHub and AWS SageMaker (video linked in guide): https://github.com/singlecellopenproblems/SingleCellOpenProblems/blob/master/SAGEMAKER.md
 
-### GitHub and Amazon Web Services (AWS)
+## GitHub and Amazon Web Services (AWS)
 
 To facilitate prototyping during the event, we’re going to use SageMaker Studio notebooks that run Docker images that power the Open Problems benchmarking. These notebooks are the same as Jupyter Lab notebooks, just run on AWS servers. We’ll provide a tutorial video on how to launch SageMaker Studio before the Jamboree.
 
