@@ -5,3 +5,4 @@ cmake
 jupyter
 boto3>1.0<2.0
 sagemaker>2.0<3.0
+opentsne
