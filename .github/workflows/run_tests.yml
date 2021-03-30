@@ -99,7 +99,12 @@ jobs:
         cd workflow
         snakemake -j 4 docker
         cd ..
-
+    
+    - name: Print environment for debugging
+      run: | 
+        echo ${{ github.repository }}
+        echo ${{ github.repository == 'SingleCellOpenProblems/singlecellopenproblems' }}
+    
     - name: Run tests
       run: pytest --cov=openproblems --cov-report=term-missing:skip-covered --cov-report=xml -vv
 
@@ -107,7 +112,10 @@ jobs:
       if: success() && ${{ github.repository == 'SingleCellOpenProblems/singlecellopenproblems' }}
       env:
         CODECOV_NAME: ${{ runner.os }}-${{ matrix.name }}
-      run: codecov --no-color --required --flags unittests
+      run: |
+        echo ${{ github.repository }}
+        echo ${{ github.repository == 'SingleCellOpenProblems/singlecellopenproblems' }}
+        codecov --no-color --required --flags unittests
 
     - name: Upload check results on fail
       if: failure()
