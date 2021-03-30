@@ -1,7 +1,7 @@
 from ....tools.decorators import method
 from ....tools.utils import check_version
-
 from openTSNE import TSNE
+
 
 @method(
     method_name="“t-Distributed Stochastic Neighbor Embedding (t-SNE)",
