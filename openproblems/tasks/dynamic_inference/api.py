@@ -10,7 +10,7 @@ def check_dataset(adata):
 
 def check_method(adata):
     """Check that method output fits expected API."""
-    # bunch of asserts here 
+    # bunch of asserts here
     return True
 
 
